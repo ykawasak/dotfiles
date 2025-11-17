@@ -1,0 +1,23 @@
+# General OS/Editor temporary files and backups
+*~
+*.bak
+*.swp
+*.tmp
+.DS_Store
+
+# Sensitive data, credentials, and private keys
+.env
+.secrets
+.authinfo
+id_rsa
+id_rsa.pub
+.ssh/
+
+# Application caches, logs, and temporary session files
+.cache/
+log/
+tmp/
+.config/**/cache
+.config/**/log
+.config/**/lock
+.config/hypr/hyprland.log
